@@ -1,0 +1,26 @@
+.message {
+  @apply text-black;
+  white-space: pre-line;
+
+  ul,
+  ol {
+    list-style: auto;
+    padding-left: 24px;
+    white-space: normal;
+  }
+
+  a {
+    @apply text-blue-600;
+    &:hover {
+      @apply underline;
+    }
+  }
+}
+
+button[class*='react-scroll-to-bottom--'] {
+  display: none;
+}
+
+.code-block {
+  white-space: normal;
+}
